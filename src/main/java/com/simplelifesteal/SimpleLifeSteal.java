@@ -53,15 +53,15 @@ public final class SimpleLifeSteal extends JavaPlugin {
         recipe.shape("abc", "def", "ghi");
 
         List<RecipeChoice> items = Config.getCraftingRecipeHeart();
-        recipe.setIngredient('a' , items.get(0));
-        recipe.setIngredient('b' , items.get(1));
-        recipe.setIngredient('c' , items.get(2));
-        recipe.setIngredient('d' , items.get(3));
-        recipe.setIngredient('e' , items.get(4));
-        recipe.setIngredient('f' , items.get(5));
-        recipe.setIngredient('g' , items.get(6));
-        recipe.setIngredient('h' , items.get(7));
-        recipe.setIngredient('i' , items.get(8));
+        recipe.setIngredient('diamond_block' , items.get(0));
+        recipe.setIngredient('diamond_block' , items.get(1));
+        recipe.setIngredient('diamond_block' , items.get(2));
+        recipe.setIngredient('diamond_block' , items.get(3));
+        recipe.setIngredient('diamond_block' , items.get(4));
+        recipe.setIngredient('diamond_block' , items.get(5));
+        recipe.setIngredient('diamond_block' , items.get(6));
+        recipe.setIngredient('diamond_block' , items.get(7));
+        recipe.setIngredient('diamond_block' , items.get(8));
         this.getServer().addRecipe(recipe);
         //recipeHearts
 
